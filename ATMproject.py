@@ -19,7 +19,7 @@ class ATMApp:
         if self.pin_entry.get()==self.pin:
             self.create_main_menu()
         else:
-            messagebox.showerror("Error","Incorrect PIN")
+            messagebox.showerror("error","Incorrect PIN")
             
     def create_main_menu(self):
         self.clear_screen()
